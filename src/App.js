@@ -5,8 +5,40 @@ import DateComponent from "./Components/DateComponent";
 import PhotoComponent from "./Components/PhotoComponent";
 
 import "./App.css";
+import axios from 'axios';
 
-function App() {
+
+function App () {
+const [data, setData] = useState({});
+const apiData = () => {
+
+axios.get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
+.then(resolved => {
+  // Handles success 
+  console.log('success', resolved.data)
+  setData(resolved.data);
+
+}
+  
+  
+  
+  )
+
+  .catch(error => {
+    // Handles failure 
+    console.log('error', error);
+  }
+    
+    
+    )
+
+
+
+
+}
+
+
+
   return (
     <div className="App">
       <p>
