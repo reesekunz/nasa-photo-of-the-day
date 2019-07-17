@@ -1,5 +1,5 @@
 // Add , { useState } to existing React import 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // Import component files created from step 2 
 import DateComponent from "./Components/DateComponent";
 import PhotoComponent from "./Components/PhotoComponent";
@@ -37,6 +37,7 @@ axios.get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
 
 }
 
+useEffect(apiData, [ ]);
 
 
   return (
