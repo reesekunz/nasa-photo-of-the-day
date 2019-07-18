@@ -23,7 +23,7 @@ function CardView() {
   // Add useEffect() - called on mount (when function is first called), takes 2 arguments - callback function and array
   useEffect(() => {
     // axios needs to be inside useEffect to avoid infinite loop
-    // Signed up and got own API key
+    // Signed up and got own API key (https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY is demo link)
     Axios.get(
       "https://api.nasa.gov/planetary/apod?api_key=isAVbPeQtem6kagSm6mn7lFUGnDWamTz6wce4ykO"
     )

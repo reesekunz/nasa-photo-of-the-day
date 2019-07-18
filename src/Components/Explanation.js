@@ -5,7 +5,10 @@
 
 import React from "react";
 
+
+
 // Dont need to import anything else since its last file in structure process along with Card (data is taken from API instead of referencing another component/file)
+
 
 // Step 4 - add props/data content inside functions in created files containing components (Card.js, Explanation.js, App.js)
 
