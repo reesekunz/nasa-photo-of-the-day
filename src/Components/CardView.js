@@ -1,4 +1,4 @@
-// Steps for creating folder: cd src => mkdir Components => cd Components => touch PhotoComponent.js 
+// Steps for creating folder/file in terminal: cd src => mkdir Components => cd Components => touch CardView.js 
 
 import React from "react";
 
