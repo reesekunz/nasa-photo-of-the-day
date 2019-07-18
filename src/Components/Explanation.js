@@ -5,6 +5,9 @@
 
 import React from "react";
 
+// import { ExplanationDiv} from "./Components/StyledComponents"
+
+
 
 
 // Dont need to import anything else since its last file in structure process along with Card (data is taken from API instead of referencing another component/file)

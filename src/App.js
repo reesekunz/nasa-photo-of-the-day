@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./App.css";
-import { WrapperDiv, BlueH1 } from "./Components/StyledComponents"
+import { WrapperDiv, NasaHeader} from "./Components/StyledComponents"
 
 
 // App contains CardView (added below with import CardView). CardView contains Card and Explanation. Card contains title, date, image (from api). Explanation contains explanation (from api).
@@ -15,7 +15,7 @@ function App() {
   return (
     // App contains CardView (added below with <CardView />). CardView contains Card and Explanation. Card contains title, date, image (from api). Explanation contains explanation (from api).
     <WrapperDiv>
-      <BlueH1>Nasa Photo of the Day</BlueH1>
+      <NasaHeader>NASA Photo of the Day</NasaHeader>
       <CardView />
       </WrapperDiv>  );
 }
