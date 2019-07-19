@@ -21,7 +21,7 @@ function Card(props) {
     <div className="Card">
       <h2>{props.data.title}</h2>
       <p>Date: {props.data.date}</p>
-    <img src={props.data.url} alt="alt" />
+      <img src={props.data.url} alt="loading..." />
     </div>
   );
 }

@@ -4,7 +4,7 @@
 
 import React from "react";
 import "./App.css";
-// import Style component 
+// import Style component
 import styled from "styled-components";
 
 // App contains CardView (added below with import CardView). CardView contains Card and Explanation. Card contains title, date, image (from api). Explanation contains explanation (from api).
@@ -25,8 +25,6 @@ export const NasaHeader = styled.h1`
   font-size: 3rem;
   background-color: black;
 `;
-
-
 
 // Step 4 - add props/data content inside functions in created files containing components (Card.js, Explanation.js, App.js)
 
